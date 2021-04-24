@@ -1,4 +1,4 @@
-# Add-Your-Team-Name-Here
+# AminoBugs
 
 Our team is from ... and we think proteins are cool 🙌
 
