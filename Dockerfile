@@ -6,7 +6,7 @@ WORKDIR /home/biolib
 #    && \
 #    conda clean -afy
 
-RUN pip install numpy pandas tensorflow scikit-learn -y
+RUN conda install numpy pandas tensorflow scikit-learn --yes
 
 COPY . .
 
