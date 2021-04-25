@@ -2,6 +2,7 @@ import argparse, joblib
 import pandas as pd
 import extra_funcs
 import tensorflow as tf
+import numpy as np
 
 # set up argument parsing (make sure these match those in config.yml)
 parser = argparse.ArgumentParser()
