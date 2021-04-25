@@ -86,7 +86,7 @@ onehot_light = aa2onehot(light_chain, chain_type = 'lightChain')
 # PREDICT
 modelfile = 'Heavy-Light-model2'
 loaded_model = tf.keras.models.load_model(modelfile)
-y_pred =  best_model.predict((heavy_chain, light_chain))
+y_pred =  loaded_model.predict((heavy_chain, light_chain))
 
 # SAVE PREDICTIONS WITH THE COLUMN NAME prediction IN THE FILE predictions.csv
 pd.DataFrame(y_pred[:, 1], columns=['prediction']).to_csv("predictions.csv", index=False)
