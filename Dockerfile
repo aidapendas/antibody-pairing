@@ -2,11 +2,11 @@ FROM continuumio/miniconda3
 
 WORKDIR /home/biolib
 
-#RUN conda install -c bioconda --yes anarci scikit-learn pandas numpy \
+RUN conda install -c bioconda --yes anarci scikit-learn pandas numpy \
 #    && \
 #    conda clean -afy
 
-RUN conda install numpy pandas tensorflow scikit-learn --yes
+RUN conda install -c bioconda anarci numpy pandas tensorflow scikit-learn --yes
 
 COPY . .
 
