@@ -1,4 +1,4 @@
-# AminoBugs 
+# AminoBugs
 
 Long ago B.C. (before Corona), our team met whilst doing our Masters at Newcastle University. Since that faithful year, we have forged an inter-continental peptide bond that is able to withstand time zone differences and adverse pressure from the upcoming hackaton. Stay tuned :dna:
 
@@ -8,20 +8,15 @@ Long ago B.C. (before Corona), our team met whilst doing our Masters at Newcastl
 
 *Arisara Amrapala (Lily) - BSc Neuroscience
 
-Ben Tong - BSc Bioengineering
-
 Emma Foster - BSc Life Sciences
 
 *João Nunes - BSc Biology
 
 *Loh Chen Lam (Eric) - BSc Biomedical Sciences
 
-
 ### Postgraduate background:
 
 *MSc in Computational Neuroscience & Neuroinformatics
-
-Ben Tong - MSc in Bioinformatics
 
 Emma Foster - MSc in Synthetic Biology
 
@@ -35,19 +30,22 @@ Aida Pendás Fernández
 
 Loh Chen Lam (Eric)
 
-Ben Tong
-
 Emma Foster
-
-
 
 ### Project Description
 
-Work in progress - check back soon. :ladybug::computer:
+:ladybug::computer:
+
+Task 1 - Create a negative dataset using different techniques (Permutations, Sequence Reversal, Randomization, Alphabetization);
+
+Task 2 - We chose a simple fully connected network to be used for this classification problem and performed a neural architecture search (NAS) to optimize the model.
+
+All our code can be found on our GitHub page - https://github.com/aidapendas/antibody-pairing
 
 We are working on the `antibody-pairing` challenge.
-To predict using our model, press "Open Application" on the left. 
+
+To predict using our model, press "Open Application" on the left.
 
 ### Scoreboard
-You can track the performance of our predictor in the [challenge scoreboard](https://biolib.com/biohackathon/antibody-pairing-scoreboard/).
 
+You can track the performance of our predictor in the [challenge scoreboard](https://biolib.com/biohackathon/antibody-pairing-scoreboard/).
